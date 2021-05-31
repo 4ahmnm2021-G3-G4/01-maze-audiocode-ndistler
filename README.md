@@ -1,9 +1,9 @@
 # 01-maze-audiocode-smeerws
 
-### Project description: 
+## Project description: 
 VR Game in Unity made for a school project. It's about a labyrinth. You have to find 3 Artefacts in the mayan jungle to escape the maze.
 
-### Concept:
+## Concept:
 Idee
 Man befindet sich vor einem Irrgarten in einem verlassenem Azteken-Dschungel. Aufgabe ist es, 3 Artefakte zu finden und diese zu einem vertrockneten Baum zu bringen, damit dieser wieder aufblühen und zum Leben erwecken kann. Dadurch erhält man einen Schlüssel, mit dem man die Ausgangstür zum Irrgarten öffnen und somit verlassen darf.
 
@@ -41,15 +41,15 @@ Tested on Oculus Rift S
 #### Visuals: 
 Screenshots (concept and experience), Video
 
-### Third party material: 
+## Third party material: 
 –
 
-#### Project state: 
+## Project state: 
 2%/100% finished
 <progress max="100" value="2"></progress>
 
-### Limitations: 
+## Limitations: 
 
-### Lessons Learned: 
+## Lessons Learned: 
 
 Copyright by smeerws :)

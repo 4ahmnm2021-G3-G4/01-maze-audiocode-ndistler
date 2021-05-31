@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class AudioTest : MonoBehaviour
 {
+
+    GameObject button;
+    AudioSource maintreesound;
     // Start is called before the first frame update
     void Start()
     {

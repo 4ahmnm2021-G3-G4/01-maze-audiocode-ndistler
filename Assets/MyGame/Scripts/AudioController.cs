@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioController : MonoBehaviour
 {
     [SerializeField]
-    GameObject[] treesGO = new GameObject[6];
+    GameObject[] treesGO = new GameObject[7];
 
     int counter;
     // Start is called before the first frame update

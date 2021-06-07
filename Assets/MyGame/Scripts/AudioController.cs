@@ -23,5 +23,14 @@ public class AudioController : MonoBehaviour
         
     }
 
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Tree1.SetActive(true);
+            Tree0.SetActive(false);
+        }
+    }
+
+
 }

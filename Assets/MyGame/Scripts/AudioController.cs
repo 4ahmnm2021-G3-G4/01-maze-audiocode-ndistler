@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class AudioController : MonoBehaviour
 {
-    public GameObject Tree0;
-    public GameObject Tree1;
-    public GameObject Tree2;
-    public GameObject Tree3;
-    public GameObject Tree4;
-    public GameObject Tree5;
+    [SerializeField]
+    GameObject[] treesGO = new GameObject[6];
 
+    int counter;
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach(GameObject tree in treesGO) { 
+            tree.SetActive(false);
+        }
+        treesGO[0].SetActive(true);
+
     }
 
     // Update is called once per frame
@@ -25,11 +26,21 @@ public class AudioController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            Tree1.SetActive(true);
-            Tree0.SetActive(false);
+            counter++;
+            treesGO[counter - 1].SetActive(false);
+            treesGO[counter].SetActive(true);
+            this.GetComponent<BoxCollider>().center = new Vector3(treesGO[counter].transform.position.x, treesGO[counter].transform.position.y, treesGO[counter].transform.position.z);
+
+            /*if (Tree1.active)
+            {
+                Tree1.SetActive(false);
+                Tree2.SetActive(true);
+            }*/
         }
+
+
     }
 
 

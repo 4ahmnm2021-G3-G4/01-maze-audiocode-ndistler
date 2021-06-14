@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fileFormatVersion: 2
 guid: e3423b8e365408843aaca57375806d2f
 folderAsset: yes
@@ -7,14 +6,4 @@ DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-fileFormatVersion: 2
-guid: e3423b8e365408843aaca57375806d2f
-folderAsset: yes
-timeCreated: 1429123043
-licenseType: Pro
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>> audio
+

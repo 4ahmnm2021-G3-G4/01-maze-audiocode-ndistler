@@ -26,6 +26,12 @@ public class AudioController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+        if (counter == 5)
+        {
+            this.GetComponent<BoxCollider>().enabled = false;
+        }
+
         if (other.CompareTag("Player"))
         {
             counter++;
@@ -33,13 +39,9 @@ public class AudioController : MonoBehaviour
             treesGO[counter].SetActive(true);
             this.GetComponent<BoxCollider>().center = new Vector3(treesGO[counter].transform.position.x, treesGO[counter].transform.position.y, treesGO[counter].transform.position.z);
 
-            /*if (Tree1.active)
-            {
-                Tree1.SetActive(false);
-                Tree2.SetActive(true);
-            }*/
         }
 
+        
 
     }
 

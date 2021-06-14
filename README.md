@@ -1,5 +1,6 @@
 # 01-maze-audiocode-smeerws
 
+
 ## Project description: 
 VR Game in Unity made for a school project. It's about a labyrinth. You have to find 3 Artefacts in the mayan jungle to escape the maze.
 
@@ -25,24 +26,25 @@ Footsteps, Stereo,  One Shot
 Wood Pickup Sound, Mono, One Shot
 Artefact Pickup Sound, Mono, One Shot
 
+
 #### Collectibles und Interaktionen
 Die Collectibles wären die Artefakte. 
 Die Interaktion ergibt sich in dem man die Artefakte freilegt, aufpickt und sie zum Main Tree bringt und vor diesen hinlegt.
 Eine weitere Interaktion wäre das Schlüssel-drehen am Ende des Spiels, um den Irrgarten verlassen zu können. 
 
 
-#### Development platform: 
+### Development platform: 
 OS: Mac OS Mojave, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam, SteamVR 2.5.0 (https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.5.0)
 
-#### Target platform: 
+### Target platform: 
 Oculus Rift/S, Vive; 
 Tested on Oculus Rift S
 
 #### Visuals: 
 Screenshots (concept and experience), Video
 
-## Third party material: 
-–
+
+### Third party material: 
 
 ## Project state: 
 2%/100% finished

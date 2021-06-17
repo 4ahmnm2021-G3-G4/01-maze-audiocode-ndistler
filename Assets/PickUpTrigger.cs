@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenEntranceDoor : MonoBehaviour
+public class PickUpTrigger : MonoBehaviour
 {
-    public GameObject Entrance1;
-    public GameObject Entrance2;
+    [SerializeField]
+    PickUpManager pickUpManagerO;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,8 @@ public class OpenEntranceDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Entrance1.GetComponent<Animator>().enabled = true;
+        Debug.Log("PickedUp");
+        pickUpManagerO.counter++;
+        Destroy(this.gameObject);
     }
 }

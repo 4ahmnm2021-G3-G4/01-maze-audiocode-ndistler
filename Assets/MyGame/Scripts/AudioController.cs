@@ -6,8 +6,9 @@ public class AudioController : MonoBehaviour
 {
     [SerializeField]
     GameObject[] treesGO = new GameObject[7];
-
-    int counter;
+    public GameObject pickUpManager;
+     
+    public int counter;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,8 @@ public class AudioController : MonoBehaviour
             tree.SetActive(false);
         }
         treesGO[0].SetActive(true);
+
+        
 
     }
 
@@ -30,6 +33,8 @@ public class AudioController : MonoBehaviour
         if (counter == 5)
         {
             this.GetComponent<BoxCollider>().enabled = false;
+
+            pickUpManager.SetActive(true);
         }
 
         if (other.CompareTag("Player"))
@@ -38,8 +43,7 @@ public class AudioController : MonoBehaviour
             treesGO[counter - 1].SetActive(false);
             treesGO[counter].SetActive(true);
             this.GetComponent<BoxCollider>().center = new Vector3(treesGO[counter].transform.position.x, treesGO[counter].transform.position.y, treesGO[counter].transform.position.z);
-
-        }
+          }
 
         
 

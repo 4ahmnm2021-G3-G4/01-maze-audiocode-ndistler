@@ -11,6 +11,9 @@
 /[Mm]emoryCaptures/
 /[Pp]ackages/
 
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
 /[Aa]ssets/SteamVR/
 /[Aa]ssets/SteamVR_Input/
 /[Aa]ssets/SteamVR_Resources/

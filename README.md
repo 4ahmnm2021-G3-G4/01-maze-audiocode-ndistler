@@ -12,10 +12,11 @@ Dort erhält man die Anweisung, im Dschungel 3 Artefakte zu suchen, welche dem B
 Die Artefakte findet man anhand von mystischem, glänzendem Sound, der von ihnen ausgestrahlt wird. Ist man in der Nähe eines Artefakt, sieht man es schön im Sonnenlicht glänzen. Bevor man es jedoch entnehmen kann, muss man es vorher noch freilagen, da es verwachsen ist.
 Hat man alle 3 Artefakte gefunden, führt einen der Sound des Baumes wieder zu ihm. Nun muss man die 3 Artefakte ablegen und der Baum beginnt aufzublühen. Sobald er wieder zu einem prächtigen Baum gewachsen ist, erhält man einen Schlüssel, mit dem man zum Ende des Irrgartens gelangt und wieder hinaustreten kann.
 
-#### Skizze
+#### Skizze & Screenshots
 <div>
-    <img src="Screenshots/Screenshot-Playmode.png">
-    <img src="Screenshots/Screenshot-Playmode.png">
+    <img src="Screenshots/Key.png">
+    <img src="Screenshots/Maze.png">
+    <img src="Screenshots/Overall.png">
 </div>
  
 
@@ -34,8 +35,11 @@ Die Interaktion ergibt sich in dem man die Artefakte freilegt, aufpickt und sie 
 Eine weitere Interaktion wäre das Schlüssel-drehen am Ende des Spiels, um den Irrgarten verlassen zu können. 
 
 
-#### Development platform: 
+#### Development Platform: 
 OS: Mac OS Mojave, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam, SteamVR 2.5.0 (https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.5.0)
+
+Note on Unity Version 2019.1.14f1 and SteamVR: The SteamVr plugin has many issues when used with Unity Versions > 2019.1.3 because the XR Management System changed from 2019.1.3 to 2019.1.4. Valve is working on it, so we will use these older versions for the VR programming.
+Download steamvr_2_5_08_19.unitypackage, import the package: Assets --> Import Package --> Custome Package
 
 #### Target platform: 
 Oculus Rift/S, Vive; 
@@ -55,7 +59,7 @@ All assets have been downloaded from sketchfab and can be seen in my "Maze Colle
         <a href="https://sketchfab.com/andyfromouterspace/collections/maze" target="_blank" style="font-weight: bold; color: #1CAAD9;">Maze</a>
         by <a href="https://sketchfab.com/andyfromouterspace" target="_blank" style="font-weight: bold; color: #1CAAD9;">andyfromouterspace</a>
         on <a href="https://sketchfab.com?utm_source=website&utm_medium=embed&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-    </p>
+</p>
 
 ## Project state: 
 90%/100% finished

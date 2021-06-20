@@ -45,11 +45,11 @@ Screenshots (concept and experience), Video
 –
 
 ## Project state: 
-2%/100% finished
-<progress max="100" value="2"></progress>
+90%/100% finished
+<progress max="100" value="90"></progress>
 
 ## Limitations: 
 
 ## Lessons Learned: 
 
-Copyright by smeerws :)
+Copyright by ndistler

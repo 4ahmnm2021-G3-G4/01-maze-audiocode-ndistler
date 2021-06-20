@@ -18,9 +18,6 @@ public class AudioController : MonoBehaviour
         treesGO[0].SetActive(true);
 
         pickUpManager.SetActive(false);
-
-
-
     }
 
     // Update is called once per frame
@@ -38,8 +35,17 @@ public class AudioController : MonoBehaviour
 
             pickUpManager.SetActive(true);
 
+            StartCoroutine("Wait3Sec");
+
+            Debug.Log("counter 5");
+        }
+
+        if(counter == 6)
+        {
             
         }
+
+
 
         if (other.CompareTag("Player"))
         {
@@ -51,7 +57,15 @@ public class AudioController : MonoBehaviour
 
         
 
+
     }
 
+    IEnumerator Wait3Sec()
+    {
+        yield return new WaitForSeconds(3);
+
+        treesGO[6].GetComponent<AudioSource>().enabled = false;
+
+    }
 
 }

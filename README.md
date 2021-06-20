@@ -1,11 +1,9 @@
 # 01-maze-audiocode-smeerws
 
-
 ## Project description: 
-VR Game in Unity made for a school project. It's about a labyrinth. You have to find 3 Artefacts in the mayan jungle to escape the maze.
+VR Game in Unity, Schulprojekt, 4AHMNM. Dabei geht es um einen Irrgarten in welchem man 3 Artefakte finden muss um dem Jungle Labyrinth zu entfliehen.
 
 ## Concept:
-Idee
 Man befindet sich vor einem Irrgarten in einem verlassenem Azteken-Dschungel. Aufgabe ist es, 3 Artefakte zu finden und diese zu einem vertrockneten Baum zu bringen, damit dieser wieder aufblühen und zum Leben erwecken kann. Dadurch erhält man einen Schlüssel, mit dem man die Ausgangstür zum Irrgarten öffnen und somit verlassen darf.
 
 #### Spielablauf
@@ -15,6 +13,10 @@ Die Artefakte findet man anhand von mystischem, glänzendem Sound, der von ihnen
 Hat man alle 3 Artefakte gefunden, führt einen der Sound des Baumes wieder zu ihm. Nun muss man die 3 Artefakte ablegen und der Baum beginnt aufzublühen. Sobald er wieder zu einem prächtigen Baum gewachsen ist, erhält man einen Schlüssel, mit dem man zum Ende des Irrgartens gelangt und wieder hinaustreten kann.
 
 #### Skizze
+<div>
+    <img src="Screenshots/Screenshot-Playmode.png">
+    <img src="Screenshots/Screenshot-Playmode.png">
+</div>
  
 
 #### Sounds
@@ -26,32 +28,41 @@ Footsteps, Stereo,  One Shot
 Wood Pickup Sound, Mono, One Shot
 Artefact Pickup Sound, Mono, One Shot
 
-
 #### Collectibles und Interaktionen
 Die Collectibles wären die Artefakte. 
 Die Interaktion ergibt sich in dem man die Artefakte freilegt, aufpickt und sie zum Main Tree bringt und vor diesen hinlegt.
 Eine weitere Interaktion wäre das Schlüssel-drehen am Ende des Spiels, um den Irrgarten verlassen zu können. 
 
 
-### Development platform: 
+#### Development platform: 
 OS: Mac OS Mojave, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam, SteamVR 2.5.0 (https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.5.0)
 
-### Target platform: 
+#### Target platform: 
 Oculus Rift/S, Vive; 
 Tested on Oculus Rift S
 
 #### Visuals: 
 Screenshots (concept and experience), Video
 
+## Third party material: 
+All assets have been downloaded from sketchfab and can be seen in my "Maze Collection" 
 
-### Third party material: 
+<iframe> width="640" height="480" src="https://sketchfab.com/playlists/embed?collection=fbad38129fac4f77b3c444076bcec459&autostart=0"
+        frameborder="0" allow="autoplay; fullscreen; vr" allowvr=""
+        allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""
+    ></iframe>
+    <p style="font-family: sans-serif;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+        <a href="https://sketchfab.com/andyfromouterspace/collections/maze" target="_blank" style="font-weight: bold; color: #1CAAD9;">Maze</a>
+        by <a href="https://sketchfab.com/andyfromouterspace" target="_blank" style="font-weight: bold; color: #1CAAD9;">andyfromouterspace</a>
+        on <a href="https://sketchfab.com?utm_source=website&utm_medium=embed&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+    </p>
 
 ## Project state: 
-2%/100% finished
-<progress max="100" value="2"></progress>
+90%/100% finished
+<progress max="100" value="90"></progress>
 
 ## Limitations: 
 
 ## Lessons Learned: 
 
-Copyright by smeerws :)
+Copyright by ndistler

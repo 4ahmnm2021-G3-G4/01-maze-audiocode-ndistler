@@ -11,6 +11,7 @@ public class PickUpManager : MonoBehaviour
     public Text countshow;
 
     public GameObject key;
+    
 
 
     // Start is called before the first frame update
@@ -29,5 +30,9 @@ public class PickUpManager : MonoBehaviour
         {
             key.SetActive(true);
         }
+
+        
     }
+
+    
 }

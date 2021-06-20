@@ -6,6 +6,9 @@ public class PickUpTrigger : MonoBehaviour
 {
     [SerializeField]
     PickUpManager pickUpManagerO;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +26,9 @@ public class PickUpTrigger : MonoBehaviour
         Debug.Log("PickedUp");
         pickUpManagerO.counter++;
         Destroy(this.gameObject);
+        
+     
     }
+
+    
 }

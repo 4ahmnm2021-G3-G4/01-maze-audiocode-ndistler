@@ -21,5 +21,14 @@ public class OpenEntranceDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Entrance1.GetComponent<Animator>().enabled = true;
+        Entrance2.GetComponent<Animator>().enabled = true;
+        StartCoroutine("Wait3Sec");
+
+    }
+    IEnumerator Wait3Sec()
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(Entrance1);
+        Destroy(Entrance2);
     }
 }

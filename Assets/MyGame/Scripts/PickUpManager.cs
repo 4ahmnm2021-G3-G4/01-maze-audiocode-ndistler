@@ -8,7 +8,10 @@ public class PickUpManager : MonoBehaviour
     [SerializeField]
     public string counttext;
     public int counter;
-    public Text countshow; 
+    public Text countshow;
+
+    public GameObject key;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +24,10 @@ public class PickUpManager : MonoBehaviour
     {
         counttext = counter + "/3";
         countshow.text = counttext;
+
+        if(counter == 3)
+        {
+            key.SetActive(true);
+        }
     }
 }

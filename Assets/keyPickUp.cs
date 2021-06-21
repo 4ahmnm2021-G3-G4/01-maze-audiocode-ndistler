@@ -12,22 +12,14 @@ public class keyPickUp : MonoBehaviour
         this.GetComponent<Rigidbody>().useGravity = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-
-    }
-
-    public void LetLose() {
-        this.GetComponent<Rigidbody>().useGravity = true;
+    public void HeldUp() {
         exit.GetComponent<BoxCollider>().enabled = true;
-        Destroy(this.gameObject);
+    }
+
+    public void Detach()
+    {
+        exit.GetComponent<BoxCollider>().enabled = false;
     }
 
 }

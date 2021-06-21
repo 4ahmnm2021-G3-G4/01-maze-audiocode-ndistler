@@ -26,8 +26,7 @@ public class PickUpTrigger : MonoBehaviour
         Debug.Log("PickedUp");
         pickUpManagerO.counter++;
         Destroy(this.gameObject);
-        
-     
+
     }
 
     

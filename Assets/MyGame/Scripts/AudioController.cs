@@ -6,7 +6,7 @@ public class AudioController : MonoBehaviour
 {
     [SerializeField]
     GameObject[] treesGO = new GameObject[7];
-    public GameObject pickUpManager;
+    public GameObject pickUps;
          
     public int counter;
     // Start is called before the first frame update
@@ -17,14 +17,10 @@ public class AudioController : MonoBehaviour
         }
         treesGO[0].SetActive(true);
 
-        pickUpManager.SetActive(false);
+        pickUps.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,19 +29,12 @@ public class AudioController : MonoBehaviour
         {
             this.GetComponent<BoxCollider>().enabled = false;
 
-            pickUpManager.SetActive(true);
+            pickUps.SetActive(true);
 
             StartCoroutine("Wait3Sec");
 
             Debug.Log("counter 5");
         }
-
-        if(counter == 6)
-        {
-            
-        }
-
-
 
         if (other.CompareTag("Player"))
         {

@@ -9,7 +9,7 @@ public class keyPickUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.GetComponent<Rigidbody>().useGravity = false;
     }
 
     // Update is called once per frame
@@ -20,8 +20,14 @@ public class keyPickUp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        exit.GetComponent<BoxCollider>().enabled = true;
-        Destroy(this.gameObject);
+        
 
     }
+
+    public void LetLose() {
+        this.GetComponent<Rigidbody>().useGravity = true;
+        exit.GetComponent<BoxCollider>().enabled = true;
+        Destroy(this.gameObject);
+    }
+
 }

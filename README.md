@@ -53,11 +53,13 @@ All assets have been downloaded from sketchfab and can be seen in my "Maze Colle
 https://sketchfab.com/andyfromouterspace/collections/maze
 
 ## Project state: 
-90%/100% finished
-<progress max="100" value="90"></progress>
+100%/100% finished
+<progress max="100" value="100"></progress>
 
 ## Limitations: 
+- My Mac wouldn't let me record with stereo built-in audio
 
 ## Lessons Learned: 
+I don't really like coding:)
 
 Copyright by ndistler

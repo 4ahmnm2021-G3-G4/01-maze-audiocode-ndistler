@@ -17,6 +17,7 @@ Hat man alle 3 Artefakte gefunden, führt einen der Sound des Baumes wieder zu i
     <img src="Screenshots/Key.png">
     <img src="Screenshots/Maze.png">
     <img src="Screenshots/Overall.png">
+    <img src="Screenshots/Skizze.png">
 </div>
  
 

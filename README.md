@@ -49,17 +49,9 @@ Tested on Oculus Rift S
 Screenshots (concept and experience), Video
 
 ## Third party material: 
-All assets have been downloaded from sketchfab and can be seen in my "Maze Collection" 
+All assets have been downloaded from sketchfab and can be seen in my <a> href="https://sketchfab.com/andyfromouterspace/collections/maze" target="_blank" style="font-weight: bold; color: #1CAAD9;">"Maze Collection"</a>
+        
 
-<iframe> width="640" height="480" src="https://sketchfab.com/playlists/embed?collection=fbad38129fac4f77b3c444076bcec459&autostart=0"
-        frameborder="0" allow="autoplay; fullscreen; vr" allowvr=""
-        allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""
-    ></iframe>
-    <p style="font-family: sans-serif;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-        <a href="https://sketchfab.com/andyfromouterspace/collections/maze" target="_blank" style="font-weight: bold; color: #1CAAD9;">Maze</a>
-        by <a href="https://sketchfab.com/andyfromouterspace" target="_blank" style="font-weight: bold; color: #1CAAD9;">andyfromouterspace</a>
-        on <a href="https://sketchfab.com?utm_source=website&utm_medium=embed&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-</p>
 
 ## Project state: 
 90%/100% finished

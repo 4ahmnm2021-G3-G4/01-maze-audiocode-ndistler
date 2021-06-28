@@ -49,9 +49,11 @@ Tested on Oculus Rift S
 Screenshots (concept and experience), Video
 
 ## Third party material: 
-All assets have been downloaded from sketchfab and can be seen in my <a> href="https://sketchfab.com/andyfromouterspace/collections/maze" target="_blank" style="font-weight: bold; color: #1CAAD9;">"Maze Collection"</a>
-        
+All assets have been downloaded from sketchfab and can be seen in my "Maze Collection" 
 
+<p style="font-family: sans-serif;font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+        <a href="https://sketchfab.com/andyfromouterspace/collections/maze" target="_blank" style="font-weight: bold; color: #1CAAD9;">"Maze Collection"</a>
+</p>
 
 ## Project state: 
 90%/100% finished
